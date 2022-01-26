@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Simple Add">
+      <UniqueIdentifier>{3661d9ac-9d23-4d68-a2c0-461b4dbd94ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simple Add">
+      <UniqueIdentifier>{1887d65e-3196-4423-baaa-a982602a1b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Variable Type Converters">
+      <UniqueIdentifier>{e13d7d24-4a56-40c2-b265-5376d689e1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Variable Type Converters">
+      <UniqueIdentifier>{8cc1150f-9548-435e-8df3-6082cda38358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7a6bb63e-05c8-4082-96c9-ea8b14d67dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1. Setup">
+      <UniqueIdentifier>{5683217e-a6f2-464b-9bc6-ff4a00661d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2. Input %28From RAW files to processed%29">
+      <UniqueIdentifier>{718515cb-3562-49e9-99db-ee2a48046be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1. Setup">
+      <UniqueIdentifier>{afd38e54-6291-4087-92fe-588c1fe99d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2. Input %28Raw to processed%29">
+      <UniqueIdentifier>{755fc465-51d4-4dc9-b520-a151986c3d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3. Sort Processed data">
+      <UniqueIdentifier>{cc388035-1a53-4d0d-bdda-49b5b0423bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3. Sort Processed data">
+      <UniqueIdentifier>{a58b7b39-d758-4d9d-8bec-3a30ae15b044}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConvertStringToInt.cpp">
+      <Filter>Source Files\Variable Type Converters</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertCharToInt.cpp">
+      <Filter>Source Files\Variable Type Converters</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertIntToString.cpp">
+      <Filter>Source Files\Variable Type Converters</Filter>
+    </ClCompile>
+    <ClCompile Include="AddOne.cpp">
+      <Filter>Source Files\Simple Add</Filter>
+    </ClCompile>
+    <ClCompile Include="AddZeroBefore.cpp">
+      <Filter>Source Files\Simple Add</Filter>
+    </ClCompile>
+    <ClCompile Include="GetLocationOfCoordsInLines.cpp">
+      <Filter>Source Files\1. Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractDataFromData.cpp">
+      <Filter>Source Files\3. Sort Processed data</Filter>
+    </ClCompile>
+    <ClCompile Include="SortCoords.cpp">
+      <Filter>Source Files\3. Sort Processed data</Filter>
+    </ClCompile>
+    <ClCompile Include="GetIndexOfChar.cpp">
+      <Filter>Source Files\3. Sort Processed data</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructFileName.cpp">
+      <Filter>Source Files\2. Input %28Raw to processed%29</Filter>
+    </ClCompile>
+    <ClCompile Include="GetDataFromFile.cpp">
+      <Filter>Source Files\2. Input %28Raw to processed%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckIfDataContainsCoords.cpp">
+      <Filter>Source Files\2. Input %28Raw to processed%29</Filter>
+    </ClCompile>
+    <ClCompile Include="EraseFile.cpp">
+      <Filter>Source Files\1. Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckIfSimilarCoords.cpp">
+      <Filter>Source Files\3. Sort Processed data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConvertStringToInt.h">
+      <Filter>Header Files\Variable Type Converters</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertCharToInt.h">
+      <Filter>Header Files\Variable Type Converters</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertIntToString.h">
+      <Filter>Header Files\Variable Type Converters</Filter>
+    </ClInclude>
+    <ClInclude Include="AddOne.h">
+      <Filter>Header Files\Simple Add</Filter>
+    </ClInclude>
+    <ClInclude Include="AddZeroBefore.h">
+      <Filter>Header Files\Simple Add</Filter>
+    </ClInclude>
+    <ClInclude Include="Setup.h">
+      <Filter>Header Files\1. Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="GetDataFromFile.h">
+      <Filter>Header Files\2. Input %28From RAW files to processed%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructFileName.h">
+      <Filter>Header Files\2. Input %28From RAW files to processed%29</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckIfDataContainsCoords.h">
+      <Filter>Header Files\2. Input %28From RAW files to processed%29</Filter>
+    </ClInclude>
+    <ClInclude Include="GetLocationOfCoordsInLines.h">
+      <Filter>Header Files\1. Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="GetIndexOfChar.h">
+      <Filter>Header Files\3. Sort Processed data</Filter>
+    </ClInclude>
+    <ClInclude Include="SortCoords.h">
+      <Filter>Header Files\3. Sort Processed data</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractDataFromData.h">
+      <Filter>Header Files\3. Sort Processed data</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteFile.h">
+      <Filter>Header Files\1. Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckIfSimilarCoords.h">
+      <Filter>Header Files\3. Sort Processed data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Calibrator.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ProcessedCoords.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
